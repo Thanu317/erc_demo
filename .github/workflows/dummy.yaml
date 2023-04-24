@@ -62,7 +62,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
             name: slither-report
-            permissions: write-all
             path: /home/runner/work/erc_demo/erc_demo/build/contracts
             
       - name: Download build artifacts
